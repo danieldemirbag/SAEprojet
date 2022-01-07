@@ -1,44 +1,212 @@
-body{
-	font-family: 'Roboto Condensed', sans-serif;
+.CSGOall{
+	font-family: 'Heebo', sans-serif;
 	margin-left: 0px;
 	margin-right: 0px;
 	background-image:url("https://th.bing.com/th/id/R.0fa9ae90c420c342a143996ceb7f87b0?rik=8%2f746MQohuBJcg&riu=http%3a%2f%2fmedia.steampowered.com%2fsteamcommunity%2fpublic%2fimages%2fitems%2f730%2fef7cb44d312df5038cba0f69a0901da427900645.jpg&ehk=yi6D3jI5zsi6RfK%2beZyaYOZx6JJCciaG0KdhLuIyxzw%3d&risl=&pid=ImgRaw&r=0");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: black;
 }
-
+.bodyperso{
+	font-family: 'Heebo', sans-serif;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-image:url("https://ebcoiffure.fr/wp-content/uploads/2018/06/BACKGROUND-GRIS-min.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #F1F1F1;
+}
 .grandtitre{
 	text-align: center;
-	font-size: 250%;
-	margin-top: -8px;
-	padding-right: 32.5%;
-	padding-top: 15px;
-	
+	font-size: 275%;
+	margin-top: -0.75%;
+	padding-right: 5%;
+	padding-top: 1.25%;
 }
-header{
+.grandtitreperso{
+	text-align: center;
+	font-size: 275%;
+	margin-top: -0.75%;
+	padding-top: 1.25%;
+}
+.headerperso {
+	background-color: #EAFFC4;
+	height: 200%;
+}
+.CSGOheader {
 	background-color: orange;
-	height: 250%;
+	height: 200%;
 }
-header img{
+.CSGOheader img{
 	height: 60px;
 	float: left; 
-	padding-left: 35%;
-	padding-top: 0.75%
+	margin-left: 2.5%;
+	margin-top: 1%;
+	border:2px solid black;
+	border-radius: 5px;
 }
-.mainpage{
+
+.mainpage, .persomainpage {
 	display: flex;
 	justify-content: space-around;
 }
+.textmainpage {
+	margin: 2.5%;
+}
 .mainpage a{
+	font-size: 150%;
+	margin-bottom: 1%;
 	text-align: center;
 	background-color: white;
-	width: calc(100% / 4 - 30px);
+	width: calc(100% / 5 - 30px);
 	box-sizing: border-box;
 	border:2px solid black;
 	padding: 0.5% 0.5%;
+	text-decoration: none;
+	border-radius: 7.5px;
+}
+.persomainpage a{
+	font-size: 150%;
+	margin-bottom: 1%;
+	text-align: center;
+	background-color: white;
+	width: calc(100% / 2 - 30px);
+	box-sizing: border-box;
+	border:2px solid black;
+	padding: 0.5% 0.5%;
+	text-decoration: none;
+	border-radius: 7.5px;
 }
 #1section{
-	display: flex;
+	
 }
 .mainblock{
 	background-image:url("https://i.pinimg.com/originals/71/4d/bd/714dbd1da04073d98fc42709ae678309.jpg");
-	display: inline-flex;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0% 15%;
+	border-radius: 10px;
+}
+.petittitre{
+	font-size: 225%;
+	text-align: center;
+	padding-top: 1.5%;
+	color: white;
+	
+}
+.mainblock p{
+	padding-left: 1.5%;
+	padding-right: 1.5%;
+	font-size: 130%;
+	color: white;	
+}
+.texttopimg {
+	text-align: center;
+}
+.imagesmap {
+	display: flex;
+	justify-content: space-evenly;
+}
+.imagesmap img{
+	height: 45%;
+	width: 45%;
+	margin-bottom: 3.5%;
+}
+.imagesarme3, .imagesarme2, .imagesarme, .imagesMAJOR, .excoll  {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.imagesarme3 img {
+	height: 32.5%;
+	width: 32.5%;
+	margin-bottom: 3.5%;
+}
+.imagesarme2 img {
+	height: 45%;
+	width: 45%;
+	margin-bottom: 3.5%;
+}
+.imagesarme img {
+	height: 70%;
+	width: 70%;
+	margin-bottom: 3.5%;
+}
+.imagesMAJOR img {
+	height: 100%;
+	width: 100%;
+	margin-bottom: 3.5%;
+}
+.excoll img {
+	height: 60%;
+	width: 60%;
+	margin-bottom: 1.5%;
+}
+.listamres, .listperso {
+	font-size: 25px;
+	padding-left: 5%;
+}
+.csversion {
+	float: right;
+	padding-right: 2.5%;
+	padding-left: 2.5%;
+}
+.playerstats{
+	padding-left: 3%;
+	padding-right: 3%;
+	height: 30%;
+	width: 30%;
+	float: left;
+}
+#section1{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 12.5%;
+	
+}
+.blockperso1 {
+	flex-basis: 44%;
+	background-color: #EAFFC4;
+	border-radius: 10px;
+	box-shadow:2px 2px 6px rgba(0,0,0,0.6);
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+}
+.blockperso2 {
+	flex-basis: 100%;
+	background-color: #EAFFC4;
+	border-radius: 10px;
+	box-shadow:2px 2px 6px rgba(0,0,0,0.6);
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+}
+.grandtitreperso1 {
+	text-align: center;
+}
+.phototete img{
+	height: 15%;
+	width: 15%;
+	float: right;
+	margin-bottom: 2%:
+}
+.space {
+	margin-bottom: 5%;
+}
+.textbasic{
+	font-size: 20px;
+}
+.basefooter {
+	flex-basis: 100%;
+	background-color: #EAFFC4;
+	border-radius: 10px;
+	box-shadow:2px 2px 6px rgba(0,0,0,0.6);
+	margin-right: 12.5%;
+	margin-left: 12.5%;
+}
+.footer{
+	display: flex;
+	justify-content: space-around;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
 }
